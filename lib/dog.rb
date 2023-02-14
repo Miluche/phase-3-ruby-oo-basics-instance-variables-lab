@@ -1,3 +1,4 @@
+=begin
 class Dog
   def initialize(args = {})
     @name = args["name"] || "nill"
@@ -33,4 +34,14 @@ puts odie.to_s
 
 erica = Dog.new({"name" => "Erica", "age"=>8})
 puts erica.to_s
+=end
 
+class Dog
+  def name=(dog_name)
+    @this_dogs_name = dog_name
+  end
+
+  def name
+    @this_dogs_name
+  end
+end

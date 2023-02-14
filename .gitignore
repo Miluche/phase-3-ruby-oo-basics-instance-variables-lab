@@ -44,3 +44,4 @@ jspm_packages
 !/log/.keep
 /tmp
 .idea/
+.bundle/
